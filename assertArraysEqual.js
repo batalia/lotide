@@ -11,4 +11,7 @@ const assertArraysEqual = (array1, array2) => {
   console.log(`✅✅✅ Assertion Passed: ${array1} === ${array2}`);
 };
 
-assertArraysEqual(array1, array2);
+// assertArraysEqual(array1, array2);
+// TODO: require eqArrays
+
+module.export = assertArraysEqual;
